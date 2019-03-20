@@ -17,13 +17,13 @@ import firebase from 'react-native-firebase';
  * CONFIGURATIOIN FOR iOS APP: All params will get from GoogleService-Info.plist file
  *  */
 const iosConfig = {
-    apiKey: 'AIzaSyAg6D_wR9aslAq2CI9AgnL33wHRPf0oWE0',
-    databaseURL: 'https://reduxfire-2b73a.firebaseio.com',
-    projectId: 'reduxfire-2b73a',
-    storageBucket: 'reduxfire-2b73a.appspot.com',
-    messagingSenderId: '910646613562',
-    clientId: '910646613562-44c92sun7pql90g5hfb113j6vuondd0f.apps.googleusercontent.com',
-    appId: '1:910646613562:ios:889bb4201ed639d2',
+    apiKey: 'PUT GOOGLE API KEY HERE',
+    databaseURL: 'PUT DATABASE URL HERE',
+    projectId: 'PUT PROJECT ID HERE',
+    storageBucket: 'PUT STORAGE BUCKET HERE',
+    messagingSenderId: 'PUT SENDER ID HERE',
+    clientId: 'PUT CLIENT ID HERE',
+    appId: 'PUT APP ID HERE',
     // enable persistence by adding the below flag
     persistence: true,
 };
@@ -32,13 +32,13 @@ const iosConfig = {
  * CONFIGURATIOIN FOR ANDROID APP: All params will get from google-services.json file
  *  */
 const androidConfig = {
-    clientId: '910646613562-uk07476m4eo0i9pnbup69p7gvgkidhmc.apps.googleusercontent.com',
-    appId: '1:910646613562:android:c858d3a9cdb9b917',
-    apiKey: 'AIzaSyAOnDQ74Uq6izUlh0V1P9-xwcaXnTWMUAM',
-    databaseURL: 'https://reduxfire-2b73a.firebaseio.com',
-    storageBucket: 'reduxfire-2b73a.appspot.com',
-    messagingSenderId: '910646613562',
-    projectId: 'reduxfire-2b73a',
+    clientId: 'PUT CLIENT ID HERE',
+    appId: 'PUT APP ID HERE',
+    apiKey: 'PUT GOOGLE API KEY HERE',
+    databaseURL: 'PUT DATABASE URL HERE',
+    storageBucket: 'PUT STORAGE BUCKET HERE',
+    messagingSenderId: 'PUT SENDER ID HERE',
+    projectId: 'PUT PROJECT ID HERE',
 
     // enable persistence by adding the below flag
     persistence: true,
