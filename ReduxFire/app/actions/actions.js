@@ -1,4 +1,4 @@
-// Copyright (C) 2018 INTUZ. 
+// Copyright (C) 2019 INTUZ. 
 
 // Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the
 // "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish,
@@ -35,7 +35,7 @@ function doGoogleLogin() {
     return async (dispatch) => {
         try {
             await GoogleSignin.configure({
-                iosClientId: '910646613562-44c92sun7pql90g5hfb113j6vuondd0f.apps.googleusercontent.com'
+                iosClientId: 'PLACE GOOGLE CLIENT ID HERE'
             });
             const data = await GoogleSignin.signIn();
             // create a new firebase credential with the token
